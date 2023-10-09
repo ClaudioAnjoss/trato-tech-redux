@@ -11,12 +11,12 @@ const iconeProps = {
 
 export default function Item(props) {
   const { titulo, foto, preco, descricao, favorito, id } = props
-
   const dispatch = useDispatch()
 
   function resolverFavorito() {
     dispatch(mudarFavorito(id))
   }
+
   return (
     <div className={styles.item}>
       <div className={styles['item-imagem']}>
@@ -46,7 +46,7 @@ export default function Item(props) {
             )}
             <FaCartPlus
               {...iconeProps}
-              color={favorito ? '#1875e8' : iconeProps.color}
+              color={favorito ? '#1875E8' : iconeProps.color}
               className={styles['item-acao']}
             />
           </div>

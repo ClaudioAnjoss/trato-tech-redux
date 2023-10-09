@@ -1,6 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
 import { v4 as uuid } from 'uuid'
-
 import assistenteVirtual from 'assets/itens/assistente-virtual.png'
 import airpod from 'assets/itens/airpod.png'
 import assistenteVirtualTela from 'assets/itens/assistente-virtual-tela.png'

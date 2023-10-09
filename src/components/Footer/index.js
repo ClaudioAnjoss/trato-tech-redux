@@ -14,7 +14,7 @@ export default function Footer() {
         <FaTwitter {...iconeProps} />
         <FaInstagram {...iconeProps} />
       </div>
-      <span>Desenvolvido Por Claudio Anjos</span>
+      <span>Desenvolvido por Alura.</span>
     </footer>
   )
 }

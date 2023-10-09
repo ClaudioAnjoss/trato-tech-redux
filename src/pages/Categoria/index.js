@@ -1,8 +1,8 @@
 import Header from 'components/Header'
+import Item from 'components/Item'
 import { useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import styles from './Categoria.module.scss'
-import Item from 'components/Item'
 
 export default function Categoria() {
   const { nomeCategoria } = useParams()
@@ -13,7 +13,6 @@ export default function Categoria() {
     itens: state.itens.filter((item) => item.categoria === nomeCategoria),
   }))
 
-  console.log(itens)
   return (
     <div>
       <Header
