@@ -1,15 +1,18 @@
-@import 'styles/breakpoints';
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
-.header {
-  background-image: url('/assets/fundo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 150px 120px 100px 120px;
-  position: relative;
-  @media(max-width: $tablet) {
-    padding-top: 250px;
-  }
-  @media(max-width: $mobile-sm) {
-    padding: 250px 50px 100px 50px;
-  }
+.titulo {
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.descricao {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
 }
